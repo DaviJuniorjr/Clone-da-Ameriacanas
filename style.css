@@ -1,0 +1,196 @@
+div {
+    background-color: rgb(245, 3, 3);
+    width: 100%;
+    height: 80px;
+    margin-top: 0px;
+}
+
+#logo {
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 20px;
+    height: 30px;
+    width: 150px;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#descricao {
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#campos {
+    text-align: center;
+    font-size: 12px;
+}
+
+#nome {
+    text-align: left;
+    margin-left: 22%;
+}
+
+#texto {
+    margin-left: 22%;
+    height: 40px;
+    width: 400px;
+}
+
+#genero {
+    text-align: left;
+    margin-left: 22%;
+}
+
+#masculino {
+    margin-left: 22%;
+    height: 20px;
+    width: 20px;
+}
+
+#feminino {
+    height: 20px;
+    width: 20px;
+}
+
+#prefiro {
+    height: 20px;
+    width: 20px;
+}
+
+#data {
+    margin-left: 22%;
+}
+
+#mensagemdata {
+    margin-left: 22%;
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#inputdata {
+    margin-left: 22%;
+    height: 40px;
+    width: 150px;
+}
+
+#cpf {
+    margin-left: 22%;
+}
+
+#mensagemcpf {
+    margin-left: 22%;
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#inputcpf {
+    margin-left: 22%;
+    height: 40px;
+    width: 150px;
+}
+
+#telefone {
+    margin-left: 22%;
+}
+
+#mensagemtelefone {
+    margin-left: 22%;
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#inputtelefone {
+    margin-left: 22%;
+    height: 40px;
+    width: 150px;
+}
+
+#email {
+    margin-left: 22%;
+}
+
+#mensagememail {
+    margin-left: 22%;
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#inputemail {
+    margin-left: 22%;
+    height: 40px;
+    width: 400px;
+}
+
+#inputopcao1 {
+    margin-left: 22%;
+    height: 20px;
+    width: 20px;
+    font-family: Arial Narrow Bold, sans-serif;
+}
+
+#senha {
+    margin-left: 22%;
+}
+
+#mensagemsenha {
+    margin-left: 22%;
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#inputsenha1 {
+    margin-left: 22%;
+    height: 40px;
+    width: 150px;
+}
+
+#inputsenha2 {
+    margin-left: 22%;
+    height: 30px;
+    width: 150px;
+}
+
+#inputopcao2 {
+    margin-left: 22%;
+    height: 20px;
+    width: 20px;
+    color: red;
+}
+
+#inputcriar {
+    margin-left: 22%;
+    height: 50px;
+    width: 500px;
+    background-color: red;
+    color: rgb(245, 247, 248);
+    font-size: large;
+    border-radius: 10px;
+}
+
+#inputcriar:hover {
+    background-color: black;
+}
+
+#entrar {
+    margin-left: 22%;
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    color: rgb(251, 251, 253);
+    font-size: large;
+    border-radius: 10px;
+}
+
+#entrar:hover {
+    background-color: black;
+}
+
+#mensagemcadastro {
+    margin-left: 22%;
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#mensagementra {
+    margin-left: 22%;
+}

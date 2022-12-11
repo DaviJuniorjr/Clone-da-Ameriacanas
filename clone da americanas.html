@@ -4,12 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clone da Americanas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-<h1>Americanas</h1>
-<h2>meu primeiro código do vscode</h2>
+<body>
+<div>
+  <img id="logo" src="logo.jpg" alt="americanas">
+</div>
+
+
+<h1 id="titulo">Criar seu cadastro</h1>
+
+<p id="descricao">veja seus pedidos de forma fácil, compre mais rápido e tenha uma experiência personalizada :)</p>
+
+<h6 id="campos">*campos obrigatórios</h6><br>
+
+<section>
+  <form action="americanas.com" method="post">
+</form>
+
+
+<label><h3 id="nome">*Nome Completo</h3></label>
+  <input type="text" placeholder="Insira seu nome" name="nome" id="texto"><br><br>
+
+<label><h3 id="genero">*Gênero</h3></label>
+  <input type="radio" name="opção" id="masculino">Masculino
+  <input type="radio" name="opção" id="feminino">Feminino
+  <input type="radio" name="opção" id="prefiro">Prefiro não informar <br><br><br>
+
+<label><h3 id="data">*Data de Nascimento</h3></label>
+    <p id="mensagemdata">necessário para a gente reconhecer a sua maioridade etária (formato dd/mm/aaaa)</p><br>
+
+    <input type="date" name="data de nascimento" id="inputdata"> <br><br><br>
+
+<label><h3 id="cpf">*CPF</h3></label>
+  <p id="mensagemcpf">importante para emitir notas fiscais</p><br>
+  <input type="number" placeholder="digite seu CPF" id="inputcpf">
+    <a href="https://empresas.americanas.com.br/?chave=brd_ca_popup_0_0_empresas" target="blank">é pessoa jurídica? conheça a americanas empresas</a>
+    <br><br><br>
+    
+<label><h3 id="telefone">*Telefone</h3></label>
+  <p id="mensagemtelefone">caso a gente precise entrar em contato sobre pedidos</p>
+    
+  <input type="tel" placeholder="(11) 9 12345678" name="tel" id="inputtelefone"><br><br><br>
+    
+<label><h3 id="email">*Email</h3></label>
+  <p id="mensagememail">informe um email válido. você vai precisar ativar seu cadastro depois de criar sua conta</p>
+    
+  <input id="inputemail" type="email" name="email" placeholder="insira seu email"><br>
+    
+<input type="checkbox" name="receber emails " id="inputopcao1">receber emails promocionais
+    <br><br><br>
+    
+<label><h3 id="senha">*Senha</h3></label>
+   <p id="mensagemsenha">precisa ter entre 6 e 20 caracteres</p>
+    
+  <input type="password" name="senha" id="inputsenha1">
+  <input type="range" name="intensidade da senha" id="inputsenha2">fraca <br>
+    
+<input type="checkbox" name="opcional" id="inputopcao2">compartilhar meus dados com parceiros para ter conteúdos personalizados, veja <a href="
+política de privacidade.html" target="_blank">como funciona</a> <br><br><br>
+    
+  <input type="submit" value="Criar cadastro" name="criar cadastro" id="inputcriar"><br><br>
+    
+  <p id="mensagemcadastro">Não se preocupe, nosso site é seguro! Ao criar o seu cadastro, você concorda com a nossa <a href="política de privacidade.html" target="_blank">política de privacidade</a></p> <br><br>
+      
+  <h3 id="mensagementra">já tem cadastro?</h3>
+
+  <a href="pagina login.html"><input type="button" id="entrar" value="Entrar"></a>
+    
+</section>
 
 
 </body>
